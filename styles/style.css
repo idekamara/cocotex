@@ -1,0 +1,40 @@
+body{
+  font-size: 14px;
+  
+
+}
+header.containe {
+  width: 1024px;
+  margin: 0 auto;
+  border: 1px solid;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+div#logo {
+  font-family: sans-serif;
+  font-size: 1.8em;
+  font-weight: 900;
+}
+div#tel {
+  font-weight: bold;
+}
+div#email {
+  font-weight: bold;
+  color: blue;
+}
+
+.search {
+  /* align-items: center; */
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 300px;
+  height: 20px;
+}
+button {
+  background: orange;
+}
