@@ -13,6 +13,7 @@ header {
   justify-content: space-between;
 }
 div#logo {
+  text-decoration: blink;
   font-family: sans-serif;
   font-size: 1.8em;
   font-weight: 900;
