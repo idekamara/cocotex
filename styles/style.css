@@ -3,14 +3,27 @@ body{
   
 
 }
+i{
+  color: blue;
+}
 header.containe {
   width: 1024px;
   margin: 0 auto;
   border: 1px solid;
+  
+
 }
 header {
+  border-radius: 20px;
+  background-color: rgba(49, 18, 18, 0.33);
   display: flex;
   justify-content: space-between;
+}
+.nom{
+  margin-block-start: 1em;
+    margin-block-end: 1em;
+    width: 300px;
+
 }
 div#logo {
   text-decoration: blink;
@@ -18,18 +31,24 @@ div#logo {
   font-size: 1.8em;
   font-weight: 900;
 }
+#slogan {
+  font-size: 1.3em;
+  font-weight: 8;
+  font-style: italic;
+  font-family: verdana;
+}
 div#tel {
   font-weight: bold;
 }
 div#email {
   font-weight: bold;
-  color: blue;
-}
+  }
 
-.search {
-  /* align-items: center; */
+.logimg {
+  margin-right: 1em;
   display: flex;
   align-items: center;
+  justify-content: right;
 }
 
 input[type="text"] {
@@ -38,4 +57,10 @@ input[type="text"] {
 }
 button {
   background: orange;
+}
+
+main{
+  width: 1024px;
+  margin: 0 auto;
+  border: 1px solid
 }
